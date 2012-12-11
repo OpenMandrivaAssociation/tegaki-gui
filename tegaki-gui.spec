@@ -36,3 +36,10 @@ rm -rf %{buildroot}
 %defattr (-,root,root)
 %{py_puresitedir}/tegaki*
 %{_datadir}/tegaki/icons/handwriting.png
+
+
+%changelog
+* Tue Nov 02 2010 Funda Wang <fwang@mandriva.org> 0.3.1-1mdv2011.0
++ Revision: 592278
+- import tegaki-gui
+
